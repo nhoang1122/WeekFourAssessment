@@ -32,10 +32,10 @@ module.exports = {
             name: name,
             goals : goals,
             ratings : ratings
-        }
+        };
         dreamers.push(newDreamer);
         globalID++;
-        res.status(200).send(dreamers)
+        res.status(200).send(dreamers);
     },
     deleteDreamer: (req, res) => {
         let index = dreamers.findIndex((el) => el.id === Number(req.params.id));
@@ -49,13 +49,13 @@ module.exports = {
 
         if(dreamers[index].ratings === 5 && type === 'plus') {
             res.status(400).send('cannot go above 5')
-        } else if (dreamers[index].ratings === 0 && type === 'minue') {
+        } else if (dreamers[index].ratings === 0 && type === 'minus') {
             res.status(400).send('cannot go below 0')
         } else if (type === 'plus') {
-            dreamers[index].rating++
+            dreamers[index].ratings++
             res.status(200).send(dreamers)
         } else if (type === 'minus') {
-            dreamers[index].rating--
+            dreamers[index].ratings--
             res.status(200).send(dreamers)
         } else {
             res.sendStatus(400)

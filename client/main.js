@@ -4,11 +4,12 @@ const container = document.querySelector('#container')
 const form = document.querySelector('form');
 const themeBtn = document.querySelectorAll('.theme');
 
+
 const url = `http://localhost:4000/api/dreamers`;
 
 const getCompliment = () => {
-    axios.
-        get("http://localhost:4000/api/compliment/")
+    axios
+        .get("http://localhost:4000/api/compliment/")
         .then(res => {
             const data = res.data;
             alert(data);
@@ -46,7 +47,8 @@ const createDreamer = (body) => {
 }
 
 const deleteDreamer = (id) => {
-    axios.delete(`${url}/${id}`)
+    axios
+    .delete(`${url}/${id}`)
     .then(({data:dreamers}) => displayDreamers(dreamers))
     .catch((err) => {
         console.log(err)
@@ -72,7 +74,7 @@ const submitHandler = (evt) => {
     let bodyObj = {
         name : name.value,
         goals : goals.value,
-        rating : ratings.value
+        ratings : ratings.value
     }
 
     createDreamer(bodyObj)
@@ -109,6 +111,8 @@ const displayDreamers = (arr) => {
 form.addEventListener('submit', submitHandler)
 complimentBtn.addEventListener('click', getCompliment)
 fortuneBtn.addEventListener('click', getFortune)
+
+
 
 
 
