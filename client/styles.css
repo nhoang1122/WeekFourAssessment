@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 70px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid cornflowerblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 25px;
+    border: none;
+    margin: 5px;
+}
+
+input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+#ratings {
+    width: 85%;
+}
+
+#rater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+#radio {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: cornflowerblue;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.name {
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 3%;
+}
+
+.goals {
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 3%;
+}
+
+.rating {
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 3%;
+}
+
+.btns-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 3%;
+}
+
+.btns-container > button {
+    width: 20px;
+    margin: 5px 0;
+}

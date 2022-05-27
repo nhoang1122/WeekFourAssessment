@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="themes.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Back End Assessment</title>
+</head>
+
+<body>
+
+  <header>
+    <button id="complimentButton">GET A COMPLIMENT</button>
+    <button class="theme">dark</button>
+    <button class="theme">light</button>
+    <button id="fortuneButton">FORTUNE COOKIE</button>
+  </header>
+
+  <main>
+
+  <form>
+
+    <input type="text" id="name" placeholder="Enter Name Here">
+    <input type="text" id="goals" placeholder="Enter Your Goals Here">
+    
+    <section id="ratings">
+
+      <p id="rater">HOW IS YOUR DAY </p>
+
+      <div id="radio">
+
+        <label for="one">
+                        
+          <input type="radio" name="ratings" value="1" id="one"/> 1
+      
+        </label>
+
+        <label for="two">
+
+          <input type="radio" name="ratings" value="2" id="two"> 2
+
+        </label>
+
+        <label for="three">
+
+          <input type="radio" name="ratings" value="3" id="three"> 3
+
+        </label>
+
+        <label for="four">
+
+          <input type="radio" name="ratings" value="4" id="four"> 4
+
+        </label>
+
+        <label for="five">
+
+          <input type="radio" name="ratings" value="5" id="five"> 5
+
+        </label>
+
+      </div>
+
+    </section>
+
+    <button>ADD GOAL</button>
+
+  </form>
+
+  <section id="container"></section>
+
+  </main>
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>  
+</body>
+
+</html>
