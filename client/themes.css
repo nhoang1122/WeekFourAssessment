@@ -1,12 +1,20 @@
-.dark {
+.DARK-MODE {
     background-color: black;
 }
 
-main.dark {
+header.DARK-MODE {
+    color:white
+}
+
+main.DARK-MODE {
     background-color: black;
 }
 
-button.dark {
+button.DARK-MODE {
     background: #14342B;
 }
 
+.btns-container > button.DARK-MODE {
+    width: 20px;
+    background: #14342B;
+}

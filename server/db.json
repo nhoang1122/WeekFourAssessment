@@ -1,0 +1,63 @@
+[
+    {
+        "id" : 1,
+        "name" : "Nhat Hoang", 
+        "goals" : "Work for FAANG",
+        "ratings" : 5
+    },
+    {
+        "id" : 2,
+        "name" : "Lisa Tran", 
+        "goals" : "Financial Freedom",
+        "ratings" : 5
+    },
+    {
+        "id" : 3,
+        "name" : "Gon Freecss", 
+        "goals" : "Find His Dad",
+        "ratings" : 3
+    },
+    {
+        "id" : 4,
+        "name" : "Tanjiro Kamado", 
+        "goals" : "Save Sister",
+        "ratings" : 3
+    },
+    {
+        "id" : 5,
+        "name" : "Naruto Uzumaki",
+        "goals" : "Become Hokage",
+        "ratings" : 5
+    },
+    {
+        "id" : 6,
+        "name" : "Eren Jaeger",
+        "goals" : "Destroy World",
+        "ratings" : 4
+    },
+    {
+        "id" : 7,
+        "name" : "F23 DevMountain Cohort",
+        "goals" : "Software Engineers",
+        "ratings" : 5
+    },
+    {
+        "id" : 8,
+        "name" : "Andrew",
+        "goals" : "Ukulele God",
+        "ratings" : 5
+    },
+    {
+        "id" : 9,
+        "name" : "DJ",
+        "goals" : "Join Boy Band",
+        "ratings" : 5
+    },
+    {
+        "id" : 10,
+        "name" : "Lukas",
+        "goals" : "Meet Link",
+        "ratings" : 5
+    }
+
+]
